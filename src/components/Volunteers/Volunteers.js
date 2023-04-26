@@ -1,6 +1,7 @@
 import React from 'react';
-import useVolunteers from '../../hooks/useVolunteers';
+
 import Activity from '../Activity/Activity';
+import useVolunteers from '../../hooks/useVolunteers';
 
 const Volunteers = () => {
     const [volunteers] = useVolunteers();
